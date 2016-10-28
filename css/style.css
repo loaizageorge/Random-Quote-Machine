@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    text-align: center;
+    font-family: 'Volkorn',serif;
+    letter-spacing: 1px;
+}
+
+body{
+  background-color: #50A162;
+}
+
+h1{
+    
+    font-size:250%;
+    font-weight: 700;
+}
+p{
+	font-size: 150% ;
+}
+
+.contain-all{
+    width: 60%;
+    margin: 150px auto 0 auto;
+    color: #00400E;
+    background-color: #81C18F;
+    border-radius: 15px;
+    padding: 15px;  
+}
+
+#showAuthor{
+    font-style: italic;
+    text-align: middle;
+}
+
+.button{
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.quote-container{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.button-container{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px){
+    .contain-all{
+        width:100%;
+        margin: 20px auto;
+      height: 50%;
+        
+    }
+  
+  h1{
+    
+    font-size:150%;
+    font-weight: 700;
+}
+p{
+	font-size: 120% ;
+}
+  
+  .button{
+    font-size: 12px;
+  }  
+}
+
+
+
+
+
+
